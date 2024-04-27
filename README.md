@@ -47,3 +47,9 @@ c
 
 Output-
 a, b, c
+
+
+Need a textarea box with a random text
+when i clicked on button need to copy of that text in side the text area and paste it out in another div
+if i changed the text in text area and again if i clicked on button need to update the text in side div
+
