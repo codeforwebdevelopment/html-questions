@@ -1,0 +1,23 @@
+
+#svgelem {
+position: relative;
+left: 50%;
+-webkit-transform: translateX(-20%);
+-ms-transform: translateX(-20%);
+transform: translateX(-20%);
+}
+
+.line{
+  stroke:red;
+  stroke-width:2;
+}
+
+.radial{
+  stop-color:rgb(200,200,200); 
+  stop-opacity:0;
+}
+
+.radial1{
+  stop-color:rgb(0,0,255); 
+  stop-opacity:1;
+}
