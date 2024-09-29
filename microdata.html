@@ -1,40 +1,52 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="description"
+      content="This field contains information about your page. It is usually around two sentences long."
+    />
+    <title>Basic Page Structure</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
 
-<head>
-  <meta charset="utf-8">
-  <meta name="description"
-    content="This field contains information about your page. It is usually around two sentences long.">
-  <title>Basic Page Structure</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-</head>
-
-<body>
-  <div>
-       
-    <section itemscope itemtype="http://schema.org/Person">
-       
-      <img itemprop="image" src="gw.jpg" alt="George Washington" align="left" style="margin-right : '10px'" />
-       <h2 itemprop="name">George Washington</h2> 
-      <p>
-        I am the first <span itemprop="jobTitle">US President</span>.  My
-        website is:{' '}
-        <a itemprop="url" href="http://georgewashington.si.edu">
-          georgewashington.si.edu
-        </a>
-        .  My address is:
-      </p>
-       
-      <address itemscope itemtype="http://schema.org/PostalAddress" itemprop="address">
-         <span itemprop="streetAddress">1600 Pennsylvania Avenue</span>,<br />
-         <span itemprop="addressLocality">Washington</span>,<br /> 
-        <span itemprop="addressRegion">DC</span>,<br /> 
-        <span itemprop="postalCode">20500</span>,<br /> 
-        <span itemprop="addressCountry">United States</span>.  
-      </address>
-             
-    </section>
-  </div>
-</body>
-
+  <body>
+    <div>
+         
+      <section itemscope itemtype="http://schema.org/Person">
+         
+        <img
+          itemprop="image"
+          src="gw.jpg"
+          alt="George Washington"
+          align="left"
+          style="margin-right: '10px'"
+        />
+         
+        <h2 itemprop="name">George Washington</h2>
+         
+        <p>
+          I am the first <span itemprop="jobTitle">US President</span>.  My
+          website is:{' '}
+          <a itemprop="url" href="http://georgewashington.si.edu">
+            georgewashington.si.edu
+          </a>
+          .  My address is:
+        </p>
+         
+        <address
+          itemscope
+          itemtype="http://schema.org/PostalAddress"
+          itemprop="address"
+        >
+           <span itemprop="streetAddress">1600 Pennsylvania Avenue</span>,<br />
+           <span itemprop="addressLocality">Washington</span>,<br /> 
+          <span itemprop="addressRegion">DC</span>,<br /> 
+          <span itemprop="postalCode">20500</span>,<br /> 
+          <span itemprop="addressCountry">United States</span>.  
+        </address>
+               
+      </section>
+    </div>
+  </body>
 </html>

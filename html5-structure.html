@@ -1,59 +1,79 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="description"
+      content="This field contains information about your page. It is usually around two sentences long."
+    />
+    <title>Basic Page Structure</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
 
-<head>
-  <meta charset="utf-8">
-  <meta name="description"
-    content="This field contains information about your page. It is usually around two sentences long.">
-  <title>Basic Page Structure</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-</head>
-
-<body>
-  <div>
-        <header role="banner">Html5 tag structure/layout </header>
-        
-    <nav>
-           
-      <ul>
-                  
-        <li>
-          <a href="#">Menu</a>
-        </li>
-                  
-        <li>
-          <a href="#">CSS </a>
-        </li>
-                  
-        <li>
-          <a href="#">JS</a>
-        </li>
-               
-      </ul>
+  <body>
+    <div>
           
-    </nav>
-        
-    <article>
-      <p>post</p>    
-      <section>
-        <p>content</p>
-        <picture>
-          <source media="(max-width: 300px)" data-srcset="images/300/jeremy-gallman_square_smaller.jpg" />
-          <source media="(max-width: 400px)" data-srcset="images/400/jeremy-gallman_square_smaller.jpg" />
-          <source media="(max-width: 500px)" data-srcset="images/500/jeremy-gallman_square_smaller.jpg" />
-          <source media="(min-width: 501px)"
-            data-srcset="assets/img/lazyloadimages/jeremy-gallman_square_smaller.jpg" />
-          <img className="lazyestload" src="images/placeholders/jeremy-gallman_square_smaller.jpg" />
-        </picture>
-      </section>
+      <header role="banner">Html5 tag structure/layout</header>
           
-    </article>
-        <aside>aside
-      <pre>const details = {<br> shop: "shopping center",<br> inArrow: () =&gt; {<br>  console.log("Welcome to " + this.shop);<br> },<br> inReg() {<br>  console.log("Welcome to " + this.shop);<br> }<br>};<br><br>details.inArrow();<br>details.inReg();</pre>
-    </aside>
-        <figure>figure</figure>       
-    <footer>footer</footer>
-  </div>
-</body>
-
+      <nav>
+             
+        <ul>
+                    
+          <li>
+            <a href="#">Menu</a>
+          </li>
+                    
+          <li>
+            <a href="#">CSS </a>
+          </li>
+                    
+          <li>
+            <a href="#">JS</a>
+          </li>
+                 
+        </ul>
+            
+      </nav>
+          
+      <article>
+        <p>post</p>
+            
+        <section>
+          <p>content</p>
+          <picture>
+            <source
+              media="(max-width: 300px)"
+              data-srcset="images/300/jeremy-gallman_square_smaller.jpg"
+            />
+            <source
+              media="(max-width: 400px)"
+              data-srcset="images/400/jeremy-gallman_square_smaller.jpg"
+            />
+            <source
+              media="(max-width: 500px)"
+              data-srcset="images/500/jeremy-gallman_square_smaller.jpg"
+            />
+            <source
+              media="(min-width: 501px)"
+              data-srcset="assets/img/lazyloadimages/jeremy-gallman_square_smaller.jpg"
+            />
+            <img
+              className="lazyestload"
+              src="images/placeholders/jeremy-gallman_square_smaller.jpg"
+            />
+          </picture>
+        </section>
+            
+      </article>
+          
+      <aside>
+        aside
+        <pre>const details = {<br> shop: "shopping center",<br> inArrow: () =&gt; {<br>  console.log("Welcome to " + this.shop);<br> },<br> inReg() {<br>  console.log("Welcome to " + this.shop);<br> }<br>};<br><br>details.inArrow();<br>details.inReg();</pre>
+      </aside>
+          
+      <figure>figure</figure>
+             
+      <footer>footer</footer>
+    </div>
+  </body>
 </html>
