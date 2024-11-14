@@ -5,3 +5,44 @@
 <div id="result">
   <div>result:</div>
 </div>
+Event Bubbling Example:
+<div id="parent" (click)="parentClick()">
+  <button id="child" (click)="childClick()">Child</button>
+  </div>
+
+  <div id="parent" (click)="parentClick()">
+    <button id="child" (click)="childClick(event)">Child</button>
+    </div>
+    
+    <table (click)="editCell($event)">
+      <tr>
+      <th colspan="3">Heading</th>
+      </tr>
+      <tr>
+      <td class="nw">row1</td>
+      <td class="n">row11</td>
+      <td class="ne">row111</td>
+      </tr>
+      <tr>row2.</tr>
+      <tr>..row3...</tr>
+      </table>
+      
+    
+      
+        
+        <body class="bod">
+        
+        <div class="one">
+        
+        <div class="two">
+        
+        <div class="three">
+        
+        </div>
+        
+        </div>
+        
+        </div>
+        
+        </body>
+        
