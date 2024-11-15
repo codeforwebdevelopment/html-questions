@@ -1,0 +1,161 @@
+table>.row>.col
+
+output ->
+
+<table>
+
+<tr class="row">
+
+<td class="col"></td>
+
+</tr>
+
+</table>
+
+.wrap>.content
+
+output ->
+
+<div class="wrap">
+
+<div class="content"></div>
+
+</div>
+
+div.wrap>div.content
+
+output ->
+
+<div class="wrap">
+
+<div class="content"></div>
+
+</div>
+
+ul>.item*3 or ul>li.item*3
+
+output ->
+
+<ul>
+
+<li class="item"></li>
+
+<li class="item"></li>
+
+<li class="item"></li>
+
+</ul>  
+
+table>#row$*4>[colspan=2]  or table>tr#row$*4>td[colspan=2]
+
+output ->
+
+<table>
+
+<tr id="row1">
+
+<td colspan="2"></td>
+
+</tr>
+
+<tr id="row2">
+
+<td colspan="2"></td>
+
+</tr>
+
+<tr id="row3">
+
+<td colspan="2"></td>
+
+</tr>
+
+<tr id="row4">
+
+<td colspan="2"></td>
+
+</tr>
+
+</table>
+
+ul>li.sample$*5
+
+output ->
+
+<ul>
+
+<li class="sample1"></li>
+
+<li class="sample2"></li>
+
+<li class="sample3"></li>
+
+<li class="sample4"></li>
+
+<li class="sample5"></li>
+
+</ul>
+
+h$[title=topic$]{Headline $}*3
+
+output ->
+
+<h1 title="topic1">Headline 1</h1>
+
+<h2 title="topic2">Headline 2</h2>
+
+<h3 title="topic3">Headline 3</h3>
+
+ul>li.item$$$*5
+
+output ->
+
+<ul>
+
+<li class="item001"></li>
+
+<li class="item002"></li>
+
+<li class="item003"></li>
+
+<li class="item004"></li>
+
+<li class="item005"></li>
+
+</ul>
+
+ul>li.item$@-*5
+
+output ->
+
+<ul>
+
+<li class="item5"></li>
+
+<li class="item4"></li>
+
+<li class="item3"></li>
+
+<li class="item2"></li>
+
+<li class="item1"></li>
+
+</ul>
+
+ul>li.item$@3*5
+
+<ul>
+
+<li class="item3"></li>
+
+<li class="item4"></li>
+
+<li class="item5"></li>
+
+<li class="item6"></li>
+
+<li class="item7"></li>
+
+</ul>
+
+Instead of div.content you can simply write .content and it will expand into <div class="content"></div>.

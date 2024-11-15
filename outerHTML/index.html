@@ -1,0 +1,88 @@
+
+<html>
+
+<head>
+
+<title>Outerhtml Demo</title>
+
+<style type=”text/css”>
+
+div.highlightedElement{
+
+background-color: red;
+
+padding: 10px;
+
+}
+
+</style>
+
+<script type=”text/javascript”>
+
+function getValue() {
+
+var oDiv = document.getElementById("div1");
+
+console.log(oDiv.outerHTML);
+
+}
+
+</script>
+
+</head>
+
+<body>
+
+<div id="div1" class="highlightedElement"><p>Hello World</p></div>
+
+<input type="button" value="get HTML" onclick="getValue()" /></body>
+
+</html>
+
+Example-  <figure id = "figureElem">
+      <svg width="100" height="100">
+      <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" />
+    </svg>
+         </figure>
+    <div class = "demo"> <button id = "clearOuter"> Clear all </button> </div>
+    
+    document.getElementById ('clearOuter'). onclick = function () {
+       document.getElementById ('figureElem'). outerHTML = '';
+    console.log (document.getElementById ("figureElem")) // returns zero
+    }
+    
+    You can use outerHTML as a wrapper.
+    
+    Example-
+    
+    <Style>
+    
+    .wrapper {border: 2px solid gainsboro}
+    
+    </ Style>
+    
+    <figure id = "inner">
+    
+    <svg width="100" height="100">
+    
+    <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" />
+    
+    </svg>
+    
+    </ Figure>
+    
+    <div class = "demo"> <button id = "wrap"> wrap in DIV </button> </div>
+    
+    <Script>
+    
+    document.getElementById ("wrap"). onclick = function () {
+    
+    let inner = document.getElementById ("inner");
+    
+    inner.outerHTML = "<div class = 'wrapper'>" + inner.outerHTML + "</div>";
+    
+    }
+    
+    </ Script>
+    
+    As we see in the above code outerHTML is the content of an element together with the element itself, outerHTML is working as a wrapper. For example, if an element or an entire part is to be packed into a div element.
