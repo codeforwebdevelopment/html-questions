@@ -1,0 +1,68 @@
+button:focus {
+  background-color: lightblue;
+}
+
+textarea:focus {
+  background-color: lightblue;
+}
+
+select:focus {
+  background-color: lightblue;
+}
+
+area:focus {
+  background-color: lightblue;
+}
+
+ul li:focus {
+  background-color: lightblue;
+}
+
+input:focus {
+  background-color: lightblue;
+}
+
+:focus {
+  outline: 3px solid red;
+}
+
+a:hover, a:visited, a:focus {
+  color: #a60000;
+  text-decoration: none;
+}
+
+li.selected {
+  background: yellow
+}
+
+.highlight {
+  background-color: #ff0;
+}
+
+select,
+
+input:focus {
+  background-color: lightblue;
+}
+
+:focus {
+  outline: 3px solid red;
+}
+
+a:hover, a:visited, a:focus {
+  color: #a60000;
+  text-decoration: none;
+}
+
+/* // { rules to add
+      //   "@angular-eslint/template/accessibility-alt-text": 2,
+      //   "@angular-eslint/template/accessibility-elements-content": 2,
+      //   "@angular-eslint/template/accessibility-label-for": 2,
+      //   "@angular-eslint/template/no-positive-tabindex": 2,
+      //   "@angular-eslint/template/accessibility-table-scope": 2,
+      //   "@angular-eslint/template/accessibility-valid-aria": 2,
+      //   "@angular-eslint/template/click-events-have-key-events": 2,
+      //   "@angular-eslint/template/mouse-events-have-key-events": 2,
+      //   "@angular-eslint/template/no-autofocus": 2,
+      //   "@angular-eslint/template/no-distracting-elements": 2
+      // } */
