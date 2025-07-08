@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+    content="This field contains information about your page. It is usually around two sentences long.">
+  <title>Basic Page Structure</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+
+<body>
+  <!-- <include src="./header.html"></include> -->
+<iframe src="./header.html" width="100%" height="200"></iframe>
+
+   Content
+Use Templating Engines (e.g., EJS, Pug, Handlebars – in frameworks like Node.js, Django, etc.)
+This is more advanced and used in server-rendered websites
+   <!-- <include src="./footer.html"></include> -->
+
+
+   <div id="header"></div>
+
+
+
+</body>
+<script>
+  // Do run it on server
+  // fetch('./header.html')
+  //   .then(response => response.text())
+  //   .then(data => {
+  //     document.getElementById('header').innerHTML = data;
+  //   });
+</script>
+</html>
